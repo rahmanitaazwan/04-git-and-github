@@ -8,13 +8,19 @@ Git cleandapat digunakan bersama git resetuntuk sepenuhnya membatalkan penambaha
 
 
 2. What do the -d and -f flags for git clean do?
-git-d untuk menghapus cabang dan git -f 
+-git-d untuk menghapus cabang.
+-git -f, --force memungkinkan menambahkan file yang diabaikan
 
 3. What git command creates a branch?
 -Git branch
 
 4. What is difference between a fast-forward and recursive merge?
--
+-Fast-forward
+Dalam strategi penggabungan yang paling umum digunakan ini, sejarah hanyalah satu garis lurus. 
+Saat Anda membuat cabang, buat beberapa komit di cabang itu, saat Anda siap untuk menggabungkan, tidak ada penggabungan baru di master. Dengan begitu penunjuk master hanya bergerak lurus ke depan dan sejarah adalah satu garis lurus.
+-Recursive merge
+Dalam Recursive merge , setelah Anda bercabang dan membuat beberapa komit, ada beberapa komit asli baru di ' master '. 
+Jadi, ketika saatnya untuk menggabungkan, git berulang di atas cabang dan membuat komit gabungan baru. Komit gabungan terus memiliki dua orang tua.
 
 5. what git command chages to another branch?
 -Git checkout
