@@ -18,4 +18,5 @@ Git revert mengembalikan file dengan tidak menghapus sejarah commit.
 
 
 4. What kinds of things can you do in interactive mode when rebasing?
+Rebasing interaktif dapat digunakan untuk mengubah komit dalam banyak cara seperti mengedit, menghapus, dan meremas.
 
